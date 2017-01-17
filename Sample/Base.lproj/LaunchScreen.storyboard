@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RjZ-DO-RWe">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skye_paladins" translatesAutoresizingMaskIntoConstraints="NO" id="8vw-Xj-RWq">
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="8vw-Xj-RWq" secondAttribute="height" multiplier="12:17" id="zzx-Y0-gKk"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="8vw-Xj-RWq" firstAttribute="width" relation="lessThanOrEqual" secondItem="RjZ-DO-RWe" secondAttribute="width" id="A6U-RE-kOd"/>
+                                    <constraint firstItem="8vw-Xj-RWq" firstAttribute="centerX" secondItem="RjZ-DO-RWe" secondAttribute="centerX" id="Jjd-ji-WxT"/>
+                                    <constraint firstItem="8vw-Xj-RWq" firstAttribute="height" relation="lessThanOrEqual" secondItem="RjZ-DO-RWe" secondAttribute="height" id="OP4-J1-nFm"/>
+                                    <constraint firstItem="8vw-Xj-RWq" firstAttribute="width" relation="lessThanOrEqual" secondItem="RjZ-DO-RWe" secondAttribute="width" priority="750" id="ZvD-EH-TxZ"/>
+                                    <constraint firstItem="8vw-Xj-RWq" firstAttribute="centerY" secondItem="RjZ-DO-RWe" secondAttribute="centerY" id="dY8-8Z-nbd"/>
+                                    <constraint firstItem="8vw-Xj-RWq" firstAttribute="height" relation="lessThanOrEqual" secondItem="RjZ-DO-RWe" secondAttribute="height" priority="750" id="vzu-b6-x9B"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="RjZ-DO-RWe" secondAttribute="trailing" id="LnF-0u-hKA"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="RjZ-DO-RWe" secondAttribute="bottom" id="ax5-2Z-A97"/>
+                            <constraint firstItem="RjZ-DO-RWe" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="kuv-Vl-8dl"/>
+                            <constraint firstItem="RjZ-DO-RWe" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="n0w-tt-U0v"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.625" y="373.94366197183098"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="skye_paladins" width="920" height="1246"/>
+    </resources>
+</document>
